@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\__SOFT\\Developer\\NodeJs\\node.exe',
+1 verbose cli   'C:\\__SOFT\\Developer\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jquery',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of D:\MY_PROJECT\PROJECT_OWN\LXWebMVC\package.json
+5 verbose readDependencies loading dependencies from D:\MY_PROJECT\PROJECT_OWN\LXWebMVC\package.json
+6 silly cache add args [ 'jquery', null ]
+7 verbose cache add spec jquery
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'jquery',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'jquery',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed jquery@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for jquery
+11 info addNameTag [ 'jquery', 'latest' ]
+12 silly mapToRegistry name jquery
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'jquery',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'jquery',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri http://registry.npmjs.org/jquery
+17 verbose addNameTag registry:http://registry.npmjs.org/jquery not in flight; fetching
+18 verbose request uri http://registry.npmjs.org/jquery
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 01:12:11
+21 verbose request id 85bfa32051709c4b
+22 http request GET http://registry.npmjs.org/jquery
+23 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:1080
+24 info attempt registry request try #2 at 01:12:22
+25 http request GET http://registry.npmjs.org/jquery
+26 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:1080
+27 info attempt registry request try #3 at 01:13:23
+28 http request GET http://registry.npmjs.org/jquery
+29 verbose stack Error: connect ECONNREFUSED 127.0.0.1:1080
+29 verbose stack     at Object.exports._errnoException (util.js:870:11)
+29 verbose stack     at exports._exceptionWithHostPort (util.js:893:20)
+29 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+30 verbose cwd D:\MY_PROJECT\PROJECT_OWN\LXWebMVC
+31 error Windows_NT 10.0.10586
+32 error argv "C:\\__SOFT\\Developer\\NodeJs\\node.exe" "C:\\__SOFT\\Developer\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery" "--save"
+33 error node v4.4.2
+34 error npm  v2.15.0
+35 error code ECONNREFUSED
+36 error errno ECONNREFUSED
+37 error syscall connect
+38 error Error: connect ECONNREFUSED 127.0.0.1:1080
+38 error     at Object.exports._errnoException (util.js:870:11)
+38 error     at exports._exceptionWithHostPort (util.js:893:20)
+38 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+38 error  { [Error: connect ECONNREFUSED 127.0.0.1:1080]
+38 error   code: 'ECONNREFUSED',
+38 error   errno: 'ECONNREFUSED',
+38 error   syscall: 'connect',
+38 error   address: '127.0.0.1',
+38 error   port: 1080,
+38 error   parent: 'lxwebmvc' }
+39 error If you are behind a proxy, please make sure that the
+39 error 'proxy' config is set properly.  See: 'npm help config'
+40 verbose exit [ 1, true ]

@@ -1,0 +1,7 @@
+        body{
+            background-image: url("resources/img/bg.jpg");
+            background-size: 100%;
+        }
+        #helloworld-box{
+            width: 100%;
+        }
